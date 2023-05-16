@@ -74,7 +74,6 @@ var result = charAtLastIndex.charAt(11);
 console.log("Char at 11 index: ",result);
 
 
-
 console.log(`D] Find the character using length property is:`);
 var handsOn = "JS the most popular language of internet."
 var resultSplit = handsOn.split("internet");

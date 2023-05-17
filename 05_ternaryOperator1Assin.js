@@ -71,7 +71,7 @@ function wordLength1(str){
     var text = str;
     var textLength = text.length;
     console.log(`the length is:`, textLength);
-    var result = str%2 ? "Developer Has ODD" : "Developer Has EVEN";
+    var result = str%2 ? "Developer Has EVEN" : "Developer Has ODD";
     console.log(`${result}`);
 
 }

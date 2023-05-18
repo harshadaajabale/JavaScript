@@ -1,7 +1,4 @@
 
-
-
-
 var num1;//
 num1 = num1++; // undefined + 1 ==> NaN
 console.log(`${num1}, type of NaN is ${typeof num1}`);

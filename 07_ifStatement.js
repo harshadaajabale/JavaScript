@@ -19,47 +19,43 @@ console.log("After if else statement");
 
 
 
+function marrigeEligibility(age, gender, candidateName){
+    if(gender=="male" && age>=21){
+        console.log(`${candidateName} you are eligible`);
+    } else  {
+        if (gender=="female" && age>=18){
+            console.log(`${candidateName} ${gender} ${age} you are eligible`);
+        } else {
+            console.log(`${candidateName} ${gender} ${age} you are not allowed as indian constitute`);
+        }
 
+    }
 
- 
+}
 
-// function marrigeEligibility(age, gender, candidateName){
-//     if(gender=="male" && age>=21){
-//         console.log(`${candidateName} you are eligible`);
-//     } else  {
-//         if (gender=="female" && age>=18){
-//             console.log(`${candidateName} ${gender} ${age} you are eligible`);
-//         } else {
-//             console.log(`${candidateName} ${gender} ${age} you are not allowed as indian constitute`);
-//         }
+marrigeEligibility(23, "male", "shyam");
+marrigeEligibility(21, "female", "jenny");
+marrigeEligibility(33, "transgender", "matoki");
 
-//     }
+marrigeEligibility(16, "female", "ketty");
 
-// }
+console.log("I am going to office");
 
-// marrigeEligibility(23, "male", "shyam");
-// marrigeEligibility(21, "female", "jenny");
-// marrigeEligibility(33, "transgender", "matoki");
+var isTrafficToDailyRoute = false;
+if(isTrafficToDailyRoute) {
+    console.log("Daily route");
+}
+    console.log("Going by Cab");
+    console.log("Had breakfast in middle");
 
-// marrigeEligibility(16, "female", "ketty");
-
-// console.log("I am going to office");
-
-// var isTrafficToDailyRoute = false;
-// if(isTrafficToDailyRoute) {
-//     console.log("Daily route");
-// }
-    // console.log("Going by Cab");
-    // console.log("Had breakfast in middle");
-
-// var num1 = 13; 
-// var isEven = num1%2==0;// false
-// if (isEven) {  
-//     console.log(` Even number: ${num1}`);
-// } else {
-//     console.log(` Odd number: ${num1}`);
-// }
-// console.log("After if else statement");
+var num1 = 13; 
+var isEven = num1%2==0;// false
+if (isEven) {  
+    console.log(` Even number: ${num1}`);
+} else {
+    console.log(` Odd number: ${num1}`);
+}
+console.log("After if else statement");
 
 // gender - male --> age >=21   AND <=90
 // gender - female --> age >=18   AND <=90
@@ -78,7 +74,7 @@ function marriageEligibility(age, gender, name){
             } else {
                  if (gender=="transgender") {
                     console.log(`Not allowed ${name} ${age} ${gender} as constitution` ); 
-                 } else { 
+                } else { 
                     if (gender=="male") {
                         console.log(`You are eligible ${name} ${age} ${gender} `);
                     } else {
@@ -89,16 +85,16 @@ function marriageEligibility(age, gender, name){
        }  
     }
 }
-// marriageEligibility(null, "male", "Shyam");
-// marriageEligibility(undefined, "male", "Shyam");
-// marriageEligibility(31, null, "Shyam");
-// marriageEligibility(24, undefined, "Shyam");
+marriageEligibility(null, "male", "Shyam");
+marriageEligibility(undefined, "male", "Shyam");
+marriageEligibility(31, null, "Shyam");
+marriageEligibility(24, undefined, "Shyam");
 
-// marriageEligibility(20, "male", "Ritik");
-// marriageEligibility(190, "male", "Satik");
+marriageEligibility(20, "male", "Ritik");
+marriageEligibility(190, "male", "Satik");
 
-// marriageEligibility(16, "female", "Ketty");
-// marriageEligibility(98, "female", "Jenny");
+marriageEligibility(16, "female", "Ketty");
+marriageEligibility(98, "female", "Jenny");
 
 
 marriageEligibility(23, "female", "Menny");
@@ -108,22 +104,22 @@ marriageEligibility(27, "male", "Bill");
 
 
 
-// marriageEligibility(23, "male", "Shyam");
-// marriageEligibility(21, "female", "Jenny");
-// marriageEligibility(33, "transgender", "Matoki");
+marriageEligibility(23, "male", "Shyam");
+marriageEligibility(21, "female", "Jenny");
+marriageEligibility(33, "transgender", "Matoki");
 
-// marriageEligibility(16, "female", "Ketty"); 
-// marriageEligibility(20, "male", "Sandy"); 
+marriageEligibility(16, "female", "Ketty"); 
+marriageEligibility(20, "male", "Sandy"); 
 
-// marriageEligibility(350, "male", "Mandy"); 
+marriageEligibility(350, "male", "Mandy"); 
 
-// marriageEligibility(-30, "male", "Mandy"); 
+marriageEligibility(-30, "male", "Mandy"); 
 
-// marriageEligibility(null, "male", "Mandy"); 
+marriageEligibility(null, "male", "Mandy"); 
 
-// marriageEligibility(-30, NaN, "Mandy");
+marriageEligibility(-30, NaN, "Mandy");
 
-// marriageEligibility(42, null, "Mandy");
+marriageEligibility(42, null, "Mandy");
 
 
 

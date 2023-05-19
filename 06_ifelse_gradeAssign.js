@@ -4,18 +4,18 @@
 
 function voteEligibility(age){
 
-    if(age==null || age==undefined ){
+    if(age==null && age==undefined ){
         console.log(`Invalid Input  : ${age}`);
 
     } else{
-        if( (age <=0 || age >=120)){
+        if( ( age==0 || age <=0 || age >=120)){
             console.log(`Invalid Data   : ${age}`);
 
         }else{
-            if( (age <=0 || age >=18)){
+            if( (age <=120 || age >=18)){
                 console.log(`Eligible for vote : ${age}`);
             } else{
-                if((age<=0 || age >=21)){
+                if((age<=120 || age >=21)){
                     console.log(`Invalid Data   :${age}`);
 
                 } else{
@@ -38,4 +38,6 @@ voteEligibility(200);
 voteEligibility(0);
 voteEligibility(null);
 voteEligibility(undefined);
+
+
 

@@ -6,13 +6,14 @@
 <body>
     <h2> LocalStorage </h2>
     <script>
-        window.localStorage.setItem("name", "Harshada A Ajabale");
         window.localStorage.setItem("city", "Yavatmal");
+        window.localStorage.setItem("name", "Harshada A Ajabale");
+        
         window.localStorage.setItem("pinCode", "445 101");
         window.localStorage.setItem("district", "Yavatmal");
 
-        // // Remove Item
-        // window.sessionStorage.removeItem("city");
+        // Remove Item
+        window.localStorage.removeItem("city");
 
         // //Get Item
         // const nameItem = window.localStorage.getItem("country");

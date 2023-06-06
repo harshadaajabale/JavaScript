@@ -1,5 +1,4 @@
-console.log(`=========Given a array.=========`);
-console.log(20,3,4,56,90,400,49);
+
 
 const arrayNums = [20,3,4,56,90,400,49];
 console.log(`step1. This is a given Shallow Clone..`);

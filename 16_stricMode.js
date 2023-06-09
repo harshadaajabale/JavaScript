@@ -10,7 +10,7 @@ const person = {
 console.log(person);
 
 // delete person;
-function show(num, num){
-    console.log(num, num);
+function show(num, num1){
+    console.log(num, num1);
 }
 show(33, 44);

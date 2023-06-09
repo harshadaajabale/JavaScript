@@ -68,19 +68,3 @@ const setOfNum = [...new Set(arrayNum)];
 //     setOfNum.add(element); 
 // }
 console.log(setOfNum);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

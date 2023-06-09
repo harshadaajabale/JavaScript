@@ -1,8 +1,4 @@
 
-
-
-
-
 //self Inviking Function or IIFe
 
 (function add(){

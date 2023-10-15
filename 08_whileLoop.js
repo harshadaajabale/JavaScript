@@ -6,6 +6,8 @@ while (i<=10) { // condition 0<=10
    console.log(i); // 0  1 2
    i = i + 1;
 }
+ 
+
 
 // WAP to print even numbers till 30
 console.log("WAP to print even numbers till 30");
